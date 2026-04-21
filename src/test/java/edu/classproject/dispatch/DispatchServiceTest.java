@@ -24,7 +24,7 @@ class DispatchServiceTest {
     void setUp() {
         orderService = new StubOrderService();
         deliveryPartnerService = new StubDeliveryPartnerService();
-        dispatchService = new DispatchAssignment.DefaultDispatchService(
+        dispatchService = new DefaultDispatchService(
                 deliveryPartnerService, orderService);
     }
 

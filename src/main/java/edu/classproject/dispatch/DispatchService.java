@@ -6,7 +6,7 @@ package edu.classproject.dispatch;
  * Design patterns applied:
  *  - ISP / SRP (SOLID): single, focused method — no unrelated concerns.
  *  - DIP (SOLID): all callers depend on this abstraction; the concrete
- *    implementation lives in DispatchAssignment.DefaultDispatchService.
+ *    implementation lives in DefaultDispatchService.
  *  - GRASP Information Expert: the interface defines what the module
  *    knows how to do (assign a partner) without exposing how.
  */
